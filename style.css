@@ -1,0 +1,134 @@
+.hello{
+    font-family: cursive;
+}
+.modal-backdrop {
+    background-color: #000 !important;
+    opacity: 0.5 !important;
+}
+
+.bloc {
+    opacity: 0;
+    transform: translateX(-60px);
+    transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.block {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+
+.show {
+    opacity: 1 !important;
+    transform: none !important;
+}
+.navbar{
+    background: initial;
+    backdrop-filter: blur(3px);
+    margin-bottom: 50px;
+}
+
+#accueil{
+    margin-top: 80px;
+    scroll-margin-top: 80px;
+}
+
+#about{
+    scroll-margin-top: 100px;
+}
+
+#school{
+    scroll-margin-top: 100px;
+}
+
+#Skills{
+    scroll-margin-top: 100px;
+}
+
+#projet{
+    scroll-margin-top: 100px;
+}
+
+#contact{
+    scroll-margin-top: 100px;
+}
+
+.trait{
+    display: block;
+    width: 190px;
+    height: 10px;
+    background-color: #0d6efd;
+    margin: 10px 0 20px 0;
+}
+
+#trait{
+    display: block;
+    width: 140px;
+    height: 10px;
+    background-color: #0d6efd;
+    margin: 10px 0 20px 0;
+}
+
+.progress{
+    background-color: #333;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    height: 20px;
+}
+
+.card {
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.6s ease-out;
+}
+
+.card.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.fa-phone-volume{
+    font-size: 84px;
+    margin-bottom: 1rem;
+}
+
+.fa-envelope{
+    font-size: 84px;
+    margin-bottom: 1rem;
+}
+
+.fa-location-dot{
+    font-size: 84px;
+    margin-bottom: 1rem;
+}
+
+.fa-heart{
+    font-size: 84px;
+    margin-bottom: 1rem;
+}
+
+#img{
+    filter: blur(1.5px);
+}
+
+#downloadBtn{
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+
+}
+
+#circle{
+    border-radius: 50%;
+    width: 400px;
+    height: 350px;
+}
+
+.container{
+    padding: 10px;
+}

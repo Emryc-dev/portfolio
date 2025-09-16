@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV – Feudje Djomo Emeryc</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <style>
+    body {
+      background-color: #f4f6f8;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .cv-container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .cv-header {
+      background: #0d6efd;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .cv-header h1 {
+      margin: 0;
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .cv-header h2 {
+      font-size: 18px;
+      margin-top: 10px;
+      font-weight: normal;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      margin: 20px auto;
+      display: block;
+    }
+    .section-title {
+      color: #0d6efd;
+      font-weight: bold;
+      border-bottom: 2px solid #0d6efd;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    .skill-bar {
+      background: #e9ecef;
+      border-radius: 20px;
+      height: 8px;
+      overflow: hidden;
+    }
+    .skill-bar span {
+      display: block;
+      height: 100%;
+      background: #0d6efd;
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <!-- Header -->
+    <div class="cv-header">
+      <img src="profil (1).jpg" alt="Photo de profil" class="profile-pic">
+      <h1>Feudje Djomo Emeryc</h1>
+      <h2>Développeur Web & Mobile</h2>
+    </div>
+
+    <!-- Main Content -->
+    <div class="row g-0">
+      <!-- Sidebar -->
+      <div class="col-md-4 p-4 bg-light">
+        <div class="mb-4">
+          <h3 class="section-title"><i class="fa fa-user"></i> Contact</h3>
+          <p><i class="fa fa-phone"></i> +237 672 170 259</p>
+          <p><i class="fa fa-phone"></i> +237 692 314 218</p>
+          <p><i class="fa fa-envelope"></i> emerycdjomo@gmail.com</p>
+          <p><i class="fa fa-location-dot"></i> Bonabéri, Douala, Cameroun</p>
+          <p><i class="fab fa-facebook"></i> /feudje.emeryc <br>
+             <i class="fab fa-linkedin"></i> /in/feudje-emeryc</p>
+        </div>
+
+        <div class="mb-4">
+          <h3 class="section-title"><i class="fa fa-code"></i> Compétences</h3>
+          <p>HTML</p><div class="skill-bar"><span style="width:85%"></span></div>
+          <p>CSS</p><div class="skill-bar"><span style="width:80%"></span></div>
+          <p>JavaScript</p><div class="skill-bar"><span style="width:50%"></span></div>
+          <p>Python</p><div class="skill-bar"><span style="width:75%"></span></div>
+          <p>PHP</p><div class="skill-bar"><span style="width:65%"></span></div>
+          <p>Java</p><div class="skill-bar"><span style="width:40%"></span></div>
+          <p>C</p><div class="skill-bar"><span style="width:70%"></span></div>
+        </div>
+
+        <div>
+          <h3 class="section-title"><i class="fa fa-certificate"></i> Certifications</h3>
+          <ul class="list-unstyled">
+            <li>✔ Développement Web – Sololearn</li>
+            <li>✔ Développement en C – Sololearn</li>
+            <li>✔ Développement Python – Sololearn</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Main Content Right -->
+      <div class="col-md-8 p-4">
+        <div class="mb-4">
+          <h3 class="section-title">Profil</h3>
+          <p>Je suis un jeune développeur web et mobile passionné par les nouvelles technologies, l'intelligence artificielle et la cybersécurité. Étudiant en Génie Informatique, j’aime apprendre, créer et relever des défis techniques.</p>
+        </div>
+
+        <div class="mb-4">
+          <h3 class="section-title">Éducation</h3>
+          <ul>
+            <li><b>IUT de Douala</b> – Génie Informatique, Niveau 2 (2025)</li>
+            <li><b>Lycée bilingue de Bonabéri</b> – Baccalauréat Scientifique (2024)</li>
+          </ul>
+        </div>
+
+        <div class="mb-4">
+          <h3 class="section-title">Projets</h3>
+          <ul>
+            <li>Site web de réservation de produits et services – RWKING</li>
+            <li>Bibliothèque en ligne</li>
+            <li>Site de vente de meublé</li>
+            <li>Application de visionnage</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="text-center py-3 bg-light">
+      <small class="text-muted">© 2025 – Feudje Djomo Emeryc</small>
+    </div>
+  </div>
+</body>
+</html>
